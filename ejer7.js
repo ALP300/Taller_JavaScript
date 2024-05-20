@@ -1,1 +1,0 @@
-console.log("Ejercicio 7")
