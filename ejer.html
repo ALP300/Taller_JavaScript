@@ -3,29 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="/ArchivosJS/bucles.js"></script>
-    <link rel="stylesheet" href="/CSS/style.css">
+    <title>Mi página Web</title>
+    <script src="ArchivosJS/bucles4.js"></script>
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-    <header>
-        <h1>Mi sitio Web</h1>
-    </header>
-    
-    <nav>
-        <a href="Direcciones/inicio.html">Inicio</a>
-        <a href="Direcciones/acerca.html">Acerca de</a>
-        <a href="Direcciones/servicios.html">Servicios</a>
-        <a href="Direcciones/contactanos.html">Contactanos</a>
-    </nav>
-
-    <main>
-        <h2>Bienvenido a mi sitio web</h2>
-        <p>Este es mi primera web básica con html y css</p>
-    </main>
-    
-    <footer>
-        <p>Derechos de autor 2024- Leonardo Palomino</p>
-    </footer>
+    <div class="login-page">
+        <div class="form">
+          <form class="register-form">
+            <input type="text" placeholder="name"/>
+            <input type="password" placeholder="password"/>
+            <input type="text" placeholder="email address"/>
+            <button>create</button>
+            <p class="message">Already registered? <a href="#">Sign In</a></p>
+          </form>
+          <form class="login-form">
+            <input type="text" placeholder="nombre"/>
+            <input type="password" placeholder="password"/>
+            <button>login</button>
+            <p class="message">Not registered? <a href="#">Create an account</a></p>
+          </form>
+        </div>
+      </div>
 </body>
 </html>
